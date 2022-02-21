@@ -1,0 +1,154 @@
+
+#logo_name{
+    	color: #f3ba2f;
+    	font-size: 32px;
+    	font-weight: 500;
+    	position: relative;
+    	left: 10px;
+    	top: 7px;
+       }
+
+
+ #button{
+     	display: flex;
+     	align-items: flex-end;
+     	font-weight: 500;
+        background-color: #f3ba2f;
+        border-color: #f3ba2f;
+        padding: 2px 18px 2px 18px;
+        line-height: 1.5;
+        font-size: 17px;
+        position: relative;
+        top: 5px;
+      }   
+
+
+ #modal{
+       border-radius: 25px;
+       border: none;
+       font-size: 1.25rem;
+       }
+
+
+
+#wallet{
+	   font-weight: 500;
+	   font-size: 20px;
+	   background-color: #f3ba2f;
+	   padding: 8px 0px 5px 15px;
+	   border-radius: 15px;
+	   height: 50px;
+	   width: 100%;
+	   text-align: left;
+	   margin-top: 15px;
+	   margin-bottom: 15px;
+       }
+
+  
+
+  #wallet:hover{
+  	           border: 1px solid black;
+               }    
+
+
+.modal-title{
+	         font-weight: 600;
+            }
+
+
+    #wallet_image{
+                 position: relative;
+                 top: -50px;
+                 left: 390px;
+                } 
+
+
+   #community{
+       	       font-size: 17px;
+       	       font-weight: 500;
+       	       color: gray;
+             }  
+
+
+
+   #main-box{
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            }           
+
+
+#main-box2{
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          }           
+
+
+@media only screen and (max-width: 575px){
+           #main-box{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                   }  
+
+
+            #main-box2{
+                      display: flex;
+                      justify-content: center;
+                      flex-wrap: wrap;
+                     }          
+
+   }
+
+
+   #card_style_text{
+                  border: none;
+                  border: none;
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                  border-radius: 15px;
+                 }
+
+
+
+     #card_style_text2{
+                  border: none;
+                  border: none;
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                  border-radius: 15px;
+                 }            
+
+
+
+
+#button-group{
+            display: block;
+            max-width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            }
+
+
+
+     #dash,#info,#veri,#tele{
+                          padding: 10px 0 10px 0;
+                          background-color: #f3ba2f;
+                          border-color: #f3ba2f;
+                          border-radius: 15px;
+                          margin-bottom: 15px;
+                          font-weight: 500;
+                          width: 100%;
+                         } 
+
+
+  p#paragraph{
+              font-weight: 500;
+              text-align: center;
+              margin-top: 30px;
+              margin-bottom: 30px;
+             }
+
+.image_text{
+           font-weight: 400;
+           font-size: 20px;
+           }

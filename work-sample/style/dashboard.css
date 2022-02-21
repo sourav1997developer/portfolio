@@ -1,0 +1,40 @@
+#back {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.btn {
+  width: 230px;
+  background-color: #f12c0a;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: -1px 11px 23px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 11px 23px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 11px 23px -6px rgba(0, 0, 0, 0.75);
+}
+
+.resume:hover {
+  color: white;
+}
+h2 {
+  margin-bottom: 40px;
+  color: #1a2238;
+  font-weight: 700;
+  font-size: 38px;
+  text-shadow: -1px -8px 3px rgba(63, 88, 190, 0.28);
+}
+
+/*button */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  box-shadow: none;
+  color: #fff;
+}

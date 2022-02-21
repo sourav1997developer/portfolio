@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+      
+      <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+     <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Stocks</title>
+  </head>
+  <body>
+    
+   <!-- Navbar start -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images/logo.webp" width="60" height="40"><span id="logo_name">STOCKS</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <span class="navbar-toggler-icon"></span> -->
+    </button>
+        <button type="button" class="btn btn-warning rounded-pill" id="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Connect</button>
+  </div>
+</nav>
+
+ <!-- Navbar end -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" id="modal">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add money to your demat account</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <button class="btn" type="btn" id="wallet"><p>Add money</p><img src="images/wallet.jpg" id="wallet_image"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row" style="background-color: #FAFAFA;">
+    <div class="col-md-12 text-center mt-4 mb-4" data-aos="fade-right">
+      <p class="fw-bold fs-2">SHARE Market</p>
+      <p id="community" class="mb-4">The stock market is a device for transferring<br>
+          money from the impatient to the patient</p>
+    </div>
+  </div>
+
+   <!-- card -->
+   <div class="row justify-content-center" style="background-color: #FAFAFA;">
+     <div class="col-md-6 col-sm-6 mb-3">
+       <div id="main-box">
+           <div class="card" style="width: 20rem;" id="card_style_text">
+             <div class="card-body">
+            <h5 class="card-title fs-4">Deposited</h5>
+            <p class="card-text fs-3 fw-bold">7592.182 BSE</p>
+              <p class="card-text fs-5"><i class="fas fa-rupee-sign"></i> 3302903.03</p>
+             </div>
+          </div>
+       </div>
+   </div>
+      <div class="col-md-6 col-sm-6 mb-4">
+        <div id="main-box2">
+          <div class="card" style="width: 20rem;" id="card_style_text2">
+           <div class="card-body">
+            <h5 class="card-title fs-4">Earnings</h5>
+            <p class="card-text fs-3 fw-bold">9860.984 NSE</p>
+              <p class="card-text fs-5"><i class="fas fa-rupee-sign"></i> 429377.39</p>
+             </div>
+          </div>
+        </div>
+     </div>
+   </div>
+   
+<!-- End card -->
+
+
+
+<!-- buttons -->
+<div class="row" style="background-color: #FAFAFA;">
+  <div class="col-md-12 mb-3">
+    <div id="button-group">
+      <a href="#dashboard" class="btn btn-warning" id="dash">Dashboard</a>
+      <a href="#information" class="btn btn-warning" id="info">Information</a>
+      <a href="#connect" class="btn btn-warning" id="veri">Contact</a>
+      <a href="#telegram" class="btn btn-warning" id="tele">Telegram</a>
+    </div>
+  </div>
+</div>
+
+<!-- end buttons -->
+
+
+
+<div class="row justify-content-evenly mb-4">
+  <div class="col-md-12">
+    <p class="fs-4" id="paragraph">Start your journey with National stock exchange<br>
+      and Bombay stock exchange</p>
+  </div>
+   <div class="col-md-3 text-center">
+     <img src="images/stocks.jpg">
+     <p class="image_text">Stocks</p>
+     <p>A stock (also known as equity) is a security that represents the ownership of a fraction of a corporation. ... Units of stock are called "shares." Stocks are bought and sold predominantly on stock exchanges.</p>
+   </div>
+   <div class="col-md-3 text-center">
+     <img src="images/stocks2.jpg">
+     <p class="image_text">High & Stable </p>
+     <p>A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks (also called shares), which represent ownership claims on businesses; these may include securities listed on a public stock exchange.</p>
+   </div>
+   <div class="col-md-3 text-center ">
+     <img src="images/stocks3.jpg">
+     <p class="image_text">Customer support</p>
+     <p>To facilitate replies to various queries of the general public on matters relating to securities market, SEBI� has undertaken a new initiative.</u></p>
+   </div>
+
+</div>
+
+<div class="row justify-content-center pt-3 pb-3" style="background-color: #FAFAFA;">
+  <div class="col-md-10 text-center">
+    <a href="#nse"><img src="images/nse.jpg"></a>
+    <a href="#bse"><img src="images/bse.jpg"></a>
+    <a href="#nse&bse"><img src="images/nsebse.jpg"></a>
+    <a href="#youtube"><img src="images/footer-4.PNG"></a>
+    <a href="#telegram"><img src="images/footer-5.PNG"></a>
+  </div>
+</div>
+
+
+
+
+
+<!-- End continer-fluid -->
+
+</div>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+  AOS.init();
+</script>
+
+  </body>
+</html>
