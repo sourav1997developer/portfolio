@@ -75,6 +75,11 @@ li .nav-link {
 #get-dropdown {
   background-color: #1a2238;
 }
+
+#mail{
+  color: #fff;
+  text-decoration: none;
+}
 /*Navbar-media query*/
 @media only screen and (max-width: 768px) {
   #contact {
