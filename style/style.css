@@ -332,3 +332,18 @@ h2 {
   font-size: 30px;
   color: #f12c0a;
 }
+
+/* 29-7-2022 */
+::selection{
+  background-color: #1a2238;
+  color: #fff;
+   }
+
+
+
+  @media only screen and (max-width: 430px) {
+    #button-resume{
+      margin-left: -1px !important;
+      margin-top: -5px !important;
+  }
+}   
