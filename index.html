@@ -1,7 +1,5 @@
 <!doctype html>
 <html lang="en">
-
-
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -138,7 +136,7 @@
        <div class="col-sm-10 col-md-5 col-10 pt-5 pb-3" data-aos="zoom-in">
          <h1 class="text-light">Hi I am <br> SOURAV</h1>
          <span id="text-light">Front-end Web developer.</span>
-         <h4 class="text-light">I had my B.tech in (2015-2019) (ME).<br>
+         <h4 class="text-light">I completed my B.tech in (2015-2019).<br>
          B.tech passed from Delhi Institute of technology Management And Research(D.I.T.M.R)
          <br>Affilated to Maharshi Dayanand university
          (MDU)Rohtak.</h4>
@@ -301,10 +299,12 @@
       <img src="images/boy.png" alt="Boy image" class="img-fluid">
     </div>
   </div>
-  <div class="col-md-6 d-flex justify-content-center pt-5 mt-3 ps-4">
+  <div class="col-md-6 d-flex justify-content-center pt-5 mt-3 ps-4" style="background-color: aliceblue;
+  border-radius: 70px 200px; box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);">
     <div>
       <h2 class="mywork-text">MY WORK</h2>
-        <p class="intern mt-4">I have completed Two internships of five months <br>In <span class="frontend">FrontEnd Web Development,</span> and currently wroking with company DBSL, from march 2022 Which is UK based
+        <p class="intern mt-2">Hi, I am Sourav and these are my some of work sample.</p>
+        <p class="intern" style="margin-bottom: 40px;">I have completed Two internships of five months <br>In <span class="frontend">FrontEnd Web Development,</span> and currently I am wroking with company DBSL, from march 2022 Which is UK based
           and these <br> are my some of work-samples.</p>
        <a href="work-sample/dashboard.html" target="parent" id="work-link">VIEW <i class="fa-solid fa-arrow-right-long"></i></a>
     </div>
@@ -430,7 +430,8 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
-       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Aos animation  -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
    <script>
   AOS.init();
@@ -491,6 +492,10 @@ responsiveClass:true,
 
 </script>
 
+<!-- To stop default behaviour of right click on hole window -->
+ <script>
+  window.addEventListener("contextmenu", e => e.preventDefault());
+</script>
 
   </body>
 </html>

@@ -194,7 +194,7 @@ h2 {
 .intern {
   font-size: 22px;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .frontend {
   color: #f12c0a;
@@ -339,11 +339,31 @@ h2 {
   color: #fff;
    }
 
-
-
   @media only screen and (max-width: 430px) {
     #button-resume{
       margin-left: -1px !important;
       margin-top: -5px !important;
   }
 }   
+
+/* 4-Dec-2022 */
+/* custom scrollbar */
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
