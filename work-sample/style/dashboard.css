@@ -7,7 +7,8 @@
 }
 
 .btn {
-  width: 230px;
+  /* width: 230px; */
+  width: 200px;
   background-color: #f12c0a;
   color: #fff;
   font-weight: 500;
@@ -19,6 +20,7 @@
 .resume:hover {
   color: white;
 }
+
 h2 {
   margin-bottom: 40px;
   color: #1a2238;
@@ -37,4 +39,46 @@ a {
 .btn:hover {
   box-shadow: none;
   color: #fff;
+}
+
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 27px;
+  }
+
+  .btn {
+    font-size: 15px !important;
+    width: 170px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .btn {
+    font-size: 14px !important;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #back>div>div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn {
+    font-size: 16px !important;
+    width: 170px;
+  }
 }

@@ -3,54 +3,67 @@
 #navbar {
   background-color: #1a2238 !important;
 }
+
 #text-color:hover {
   color: #ff6a3d;
 }
+
 #text-color1:hover {
   color: #ff6a3d !important;
 }
+
 #text-color2:hover {
   color: #ff6a3d !important;
 }
+
 #navbarDropdownMenuLink:hover {
   color: #ff6a3d !important;
 }
+
 #text-color4:hover {
   color: #ff6a3d !important;
 }
+
 #contact {
   outline: 2px solid #fff;
   color: #fff;
 }
+
 #contact {
   color: #f12c0a;
 }
+
 #contact:hover {
   color: #fff;
   background-color: #f12c0a;
   transition: 0.4s ease;
 }
+
 #contact:active {
   transform: translate(5px);
 }
+
 #background-list {
   background-color: #1a2238;
 }
+
 .dropdown-item {
   color: #fff;
   font-size: 18px;
 }
+
 .dropdown-item:hover {
   color: #ff6a3d;
   background-color: #fff;
 }
+
 div .navbar-brand {
-  font-size: 25px;
+  font-size: 23px;
   padding-right: 20px;
 }
 
 li .nav-link {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -67,6 +80,7 @@ li .nav-link {
 #background {
   background-color: #ff6a3d;
 }
+
 .item img {
   border-radius: 18px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -76,10 +90,11 @@ li .nav-link {
   background-color: #1a2238;
 }
 
-#mail{
+#mail {
   color: #fff;
   text-decoration: none;
 }
+
 /*Navbar-media query*/
 @media only screen and (max-width: 768px) {
   #contact {
@@ -95,59 +110,72 @@ li .nav-link {
     margin-bottom: 5px;
   }
 }
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 0.5rem;
     font-size: 18px;
   }
 }
+
 /* home */
 #text-light {
   font-size: 30px;
   font-weight: 500;
   color: #fff;
 }
+
 .fa-download {
   font-size: 19px;
 }
+
 /* about section */
 #button-resume {
   margin-top: 30px;
 }
+
 #resume-down {
   text-decoration: none;
   color: #1a2238;
   font-weight: 700;
 }
+
 .about-text,
 .myskill-text {
   color: #1a2238;
   font-weight: 700;
   border-bottom: #f12c0a 2px solid;
 }
+
 #intro,
 #myskill-text {
   color: #f12c0a;
 }
+
 @media only screen and (max-width: 450px) {
   #intro {
     font-size: 20px;
   }
 }
+
 .my_first {
   color: #1a2238;
 }
+
 .skills {
   color: #f12c0a;
   font-weight: 700;
 }
+
 h1 {
   font-family: "Do Hyeon", sans-serif;
 }
+
 .strength,
 .personal {
   font-weight: 500;
 }
+
 /* skill-section */
 .skills-image img {
   width: 150px;
@@ -155,6 +183,7 @@ h1 {
   display: block;
   margin: 0 auto;
 }
+
 .skills-image {
   width: 310px;
   min-height: 380px;
@@ -167,6 +196,7 @@ h1 {
   transition: ease 0.5s;
   cursor: pointer;
 }
+
 .skills-image:hover {
   box-shadow: none;
 }
@@ -176,6 +206,7 @@ h1 {
   font-weight: 500;
   color: #f12c0a;
 }
+
 .learning {
   font-size: 19px;
 }
@@ -187,18 +218,22 @@ h1 {
   padding-bottom: 10px;
   font-weight: 700;
 }
+
 h2 {
   width: 40%;
   text-align: center;
 }
+
 .intern {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 10px;
 }
+
 .frontend {
   color: #f12c0a;
 }
+
 #work-link {
   text-decoration: none;
   color: #fff;
@@ -208,17 +243,21 @@ h2 {
   font-size: 18px;
   font-weight: 500;
 }
+
 #work-link:hover {
   background-color: #f12c0a;
   transition: 0.4s ease;
 }
+
 /* helpfull section */
 #help {
   background-color: #1a2238;
 }
+
 .usefull {
   color: #fff;
 }
+
 .usefull-links {
   color: #fff;
   text-decoration: none;
@@ -230,24 +269,29 @@ h2 {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 .usefull-links:hover {
   color: white;
   text-decoration: underline;
 }
+
 /* summary */
 .summary {
   color: #1a2238;
   border-bottom: 2px solid #f12c0a;
 }
+
 #description {
   color: #1a2238;
   text-align: justify;
 }
+
 /* memories */
 .memories {
   color: #f12c0a;
   border-bottom: #1a2238 2px solid;
 }
+
 .owl-carousel .item {
   transition: transform 0.1s ease;
 }
@@ -319,9 +363,11 @@ h2 {
   text-decoration: none;
   color: #fff;
 }
+
 .modal-footer {
   margin-bottom: px;
 }
+
 /*scroll-to-top */
 .to-top {
   display: none;
@@ -334,17 +380,17 @@ h2 {
 }
 
 /* 29-7-2022 */
-::selection{
+::selection {
   background-color: #1a2238;
   color: #fff;
-   }
+}
 
-  @media only screen and (max-width: 430px) {
-    #button-resume{
-      margin-left: -1px !important;
-      margin-top: -5px !important;
+@media only screen and (max-width: 430px) {
+  #button-resume {
+    margin-left: -1px !important;
+    margin-top: -5px !important;
   }
-}   
+}
 
 /* 4-Dec-2022 */
 /* custom scrollbar */

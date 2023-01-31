@@ -1,128 +1,195 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Document</title>
   </head>
   <body>
-     
     <header>
-      <input type="checkbox" id="check">
+      <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="fas fa-bars" onclick="myFunction()"></i>
       </label>
-        <ul class="head">
-          <li class="book"><a href="#">BookPod<span class="dot_color">.</span></a></li>
-          <div class="items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Podcasts</a></li>
-          </div>
-            <input class="input" type="text" name="search" placeholder="Search...">
-        </ul>
-        <img src="https://ik.imagekit.io/44ukznrrlap/images/search_sEZzYmprDvP.png?updatedAt=1636445223271" id="image">
-
-         <div id="menu_bar">
-           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Podcasts</a></li>
-           </ul>
-         </div>
-    </header>
-    
-          <div class="home_podcasts">
-            <h1>Home of <spn class="dot_color">100,000+</spn><br>books and podcasts</h1>
-            <p>Get the latest books and listen to the <br> latest podcasts all in one place</p>
-          </div>
-    
-          <div class="btn">
-             <a href="#">Get Started</a>
-          </div>
-    
-          <div id="left_image">
-            <img src="https://ik.imagekit.io/44ukznrrlap/images/book_YwNHWy4dOCJ.jpg?updatedAt=1636445216000" width="600" height="400" class="book_image">
-          </div>
-    
-        <div class="right_box">
-          <p class="cap">Lorem ipsum</p>
-          <h2>Lorem Ipsum<br>dolor sit amet</h2>
-          <p class="cap_size">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit,sed do eiusmod tempor <br>incidunt ut labore et dolore magna aliqua.</p>
-          <div class="social_icons">
-            <a href="#twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#facebook"><i class="fab fa-facebook"></i></a>
-            <a href="#instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
-          </div>
+      <ul class="head">
+        <li class="book">
+          <a href="#">BookPod<span class="dot_color">.</span></a>
+        </li>
+        <div class="items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Podcasts</a></li>
         </div>
-   
+        <input
+          class="input"
+          type="text"
+          name="search"
+          placeholder="Search..."
+        />
+      </ul>
+      <img
+        src="https://ik.imagekit.io/44ukznrrlap/images/search_sEZzYmprDvP.png?updatedAt=1636445223271"
+        id="image"
+      />
 
-          
-       <div class="bottom_box">
-          <h2 class="featured">Featured Writers</h2>
-          
-          <div class="box_items">
-            <figure class="round">
-              <img src="https://ik.imagekit.io/44ukznrrlap/images/img1_UrUsoiy2a.jpeg?updatedAt=1636445216392" width="100" height="100" class="round2">
-              <figcaption>E R Braithwaite</figcaption>
-           </figure> 
-          
-          <figure class="round">
-              <img src="https://ik.imagekit.io/44ukznrrlap/images/img2__YlUcnQPqsN.jpeg?updatedAt=1636445217238" width="100" height="100" class="round2">
-              <figcaption>Andrea Levy</figcaption>
-           </figure>
+      <div id="menu_bar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Podcasts</a></li>
+        </ul>
+      </div>
+    </header>
 
-           <figure class="round">
-              <img src="https://ik.imagekit.io/44ukznrrlap/images/img3_aLPkh5IvR.jpeg?updatedAt=1636445218122" width="100" height="100" class="round2">
-              <figcaption>Stephen King</figcaption>
-           </figure>
+    <div class="home_podcasts">
+      <h1>
+        Home of <spn class="dot_color">100,000+</spn><br />books and podcasts
+      </h1>
+      <p>
+        Get the latest books and listen to the <br />
+        latest podcasts all in one place
+      </p>
+    </div>
 
-           <figure class="round">
-              <img src="https://ik.imagekit.io/44ukznrrlap/images/img4_eNsuAR8BJ_G.jpeg?updatedAt=1636445218952" width="100" height="100" class="round2">
-              <figcaption>Jorge Amado</figcaption>
-           </figure>
+    <div class="btn">
+      <a href="#">Get Started</a>
+    </div>
 
-         </div>
-         <div class="box_items">
-           <figure class="round">
-              <img src="https://ik.imagekit.io/44ukznrrlap/images/img5_5Hq8DylIL.jpeg?updatedAt=1636445219737" width="100" height="100" class="round2">
-              <figcaption>Gayle Forman</figcaption>
-           </figure>
+    <div id="left_image">
+      <img
+        src="https://ik.imagekit.io/44ukznrrlap/images/book_YwNHWy4dOCJ.jpg?updatedAt=1636445216000"
+        width="600"
+        height="400"
+        class="book_image"
+      />
+    </div>
 
-           <figure class="round">
-              <img src="https://ik.imagekit.io/44ukznrrlap/images/img6_8hLrI7ZmcFy.jpeg?updatedAt=1636445220594" width="100" height="100" class="round2">
-              <figcaption>Shashi Tharoor</figcaption>
-           </figure>
+    <div class="right_box">
+      <p class="cap">Lorem ipsum</p>
+      <h2>Lorem Ipsum<br />dolor sit amet</h2>
+      <p class="cap_size">
+        Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit,sed do
+        eiusmod tempor <br />incidunt ut labore et dolore magna aliqua.
+      </p>
+      <div class="social_icons">
+        <a href="#twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
 
-           <figure class="round">
-              <img src="https://ik.imagekit.io/44ukznrrlap/images/img7_A-q5dz-9R7r.jpg?updatedAt=1636445221498" width="100" height="100" class="round2">
-              <figcaption>J.K. Rowling</figcaption>
-           </figure>
+    <div class="bottom_box">
+      <h2 class="featured">Featured Writers</h2>
 
-           <figure class="round">
-              <img src="https://ik.imagekit.io/44ukznrrlap/images/img8_U_sq33V6K.jpg?updatedAt=1636445222361" width="100" height="100" class="round2">
-              <figcaption>Johan Green</figcaption>
-           </figure>
-           </div>
-          
-       </div>
-        
+      <div class="box_items">
+        <figure class="round">
+          <img
+            src="https://ik.imagekit.io/44ukznrrlap/images/img1_UrUsoiy2a.jpeg?updatedAt=1636445216392"
+            width="100"
+            height="100"
+            class="round2"
+          />
+          <figcaption>E R Braithwaite</figcaption>
+        </figure>
+
+        <figure class="round">
+          <img
+            src="https://ik.imagekit.io/44ukznrrlap/images/img2__YlUcnQPqsN.jpeg?updatedAt=1636445217238"
+            width="100"
+            height="100"
+            class="round2"
+          />
+          <figcaption>Andrea Levy</figcaption>
+        </figure>
+
+        <figure class="round">
+          <img
+            src="https://ik.imagekit.io/44ukznrrlap/images/img3_aLPkh5IvR.jpeg?updatedAt=1636445218122"
+            width="100"
+            height="100"
+            class="round2"
+          />
+          <figcaption>Stephen King</figcaption>
+        </figure>
+
+        <figure class="round">
+          <img
+            src="https://ik.imagekit.io/44ukznrrlap/images/img4_eNsuAR8BJ_G.jpeg?updatedAt=1636445218952"
+            width="100"
+            height="100"
+            class="round2"
+          />
+          <figcaption>Jorge Amado</figcaption>
+        </figure>
+      </div>
+      <div class="box_items">
+        <figure class="round">
+          <img
+            src="https://ik.imagekit.io/44ukznrrlap/images/img5_5Hq8DylIL.jpeg?updatedAt=1636445219737"
+            width="100"
+            height="100"
+            class="round2"
+          />
+          <figcaption>Gayle Forman</figcaption>
+        </figure>
+
+        <figure class="round">
+          <img
+            src="https://ik.imagekit.io/44ukznrrlap/images/img6_8hLrI7ZmcFy.jpeg?updatedAt=1636445220594"
+            width="100"
+            height="100"
+            class="round2"
+          />
+          <figcaption>Shashi Tharoor</figcaption>
+        </figure>
+
+        <figure class="round">
+          <img
+            src="https://ik.imagekit.io/44ukznrrlap/images/img7_A-q5dz-9R7r.jpg?updatedAt=1636445221498"
+            width="100"
+            height="100"
+            class="round2"
+          />
+          <figcaption>J.K. Rowling</figcaption>
+        </figure>
+
+        <figure class="round">
+          <img
+            src="https://ik.imagekit.io/44ukznrrlap/images/img8_U_sq33V6K.jpg?updatedAt=1636445222361"
+            width="100"
+            height="100"
+            class="round2"
+          />
+          <figcaption>Johan Green</figcaption>
+        </figure>
+      </div>
+    </div>
+
     <script>
       function myFunction() {
-      var x = document.getElementById("menu_bar");
+        var x = document.getElementById("menu_bar");
         if (x.style.display === "none") {
-            x.style.display = "block";
+          x.style.display = "block";
         } else {
-         x.style.display = "none";
+          x.style.display = "none";
         }
-       }
+      }
     </script>
 
+    <!-- To stop default behaviour of right click on hole window -->
+    <script>
+      window.addEventListener("contextmenu", (e) => e.preventDefault());
+    </script>
   </body>
 </html>
